@@ -91,7 +91,7 @@ void MainWindow::unaryOpPressed(){
         ui->label->setText(newLabel);
     }
 
-    if (button->text()=="%"){
+    if (button->text()=="%*"){
         labelNumber = ui->label->text().toDouble();
         labelNumber = labelNumber * 0.01;
         newLabel = QString::number(labelNumber,'g',15);
