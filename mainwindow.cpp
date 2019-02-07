@@ -68,7 +68,7 @@ void MainWindow::digit_pressed(){
     }
 
 
-    if(text == "0"){
+    if(text == "1"){
         ui->label->setText("");
     }
 
